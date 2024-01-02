@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 32px;
+  color: $dark-color;
+
+  @include breakpoint($min-desktop) {
+    max-width: 1440px;
+  }
+}
+
+a {
+  font-family: $primary-font;
+  color: $secondary-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+h1 {
+  @include hx;
+
+  font-size: 44px;
+  line-height: 58.51px;
+}
+
+h2 {  
+  @include hx;
+
+  font-size: 36px;
+  line-height: 43.88px;
+}
+
+h3 {
+  @include hx;
+
+  font-size: 24px;
+  line-height: 29.26px;
+}
+
+h4 {
+  @include hx;
+
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h5 {
+  @include hx;
+
+  font-size: 16px;
+  line-height: 20px;
+}
